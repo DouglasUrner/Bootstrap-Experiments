@@ -14,10 +14,26 @@
 <body>
   <h1>Douglas Urner | Mt. Rainier High School</h1>
   <h2>Computer Science &amp; Photography</h2>
-  <ul id="nav">
-    <li><a href="ecs.html">Exploring Computer Science</a></li>
-    <li><a href="photo1.html">Photo 1</a></li>
-    <li><a href="photo2.html">Photo 2</a></li>
+  
+  <div role="tabpanel">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#ecs" aria-controls="ecs" role="tab" data-toggle="tab">ECS</a></li>
+    <li role="presentation"><a href="#ibcs" aria-controls="ibcs" role="tab" data-toggle="tab">IB CS</a></li>
+    <li role="presentation"><a href="#photo" aria-controls="photo" role="tab" data-toggle="tab">Photo</a></li>
   </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">...</div>
+    <div role="tabpanel" class="tab-pane" id="ecs">...</div>
+    <div role="tabpanel" class="tab-pane" id="ibcs">...</div>
+    <div role="tabpanel" class="tab-pane" id="photo">...</div>
+  </div>
+
+</div>
+
 </body>
 </html>
